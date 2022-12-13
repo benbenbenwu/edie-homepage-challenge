@@ -5,12 +5,183 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>edie-homepage</title>
 </head>
 
 <body>
-
+  <header class="header container">
+    <h3 class="heading-tertiary">Edie</h3>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">Services</a></li>
+        <li class="nav-item"><a href="#">Our Works</a></li>
+        <li class="nav-item"><a href="#">Clients</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <span class="material-symbols-outlined btn-menu">menu</span>
+  </header>
+  <section class="section-hero container">
+    <div class="hero-text-box-1">
+      <p class="heading-sub sub-blue margin-bottom-smaller">Unhappy with your website?</p>
+      <h1 class="heading-primary">We create beautiful and fast web services</h1>
+    </div>
+    <div class="hero-img-box">
+      <img src="heroImage.jpg" alt="edie-hero-img" class="hero-img">
+    </div>
+    <div class="hero-text-box-2">
+      <h1 class="heading-primary margin-bottom-smaller">Story, emotion and purpose</h1>
+      <p class="heading-sub">We help transform your ideas into real world applications that will outperform your
+        toughest competition and help you achieve your strategic goals in short period of time.</p>
+      <div class="contact-box">
+        <p class="contact-text">Want us to contact you?</p>
+        <div class="contact-submit-box">
+          <input type="text" class="input-submit" placeholder="Email">
+          <button class="btn">Join</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-about container">
+    <h2 class="heading-secondary">We offer high demand services</h2>
+    <div class="about-box">
+      <div class="about-card">
+        <div class="about-card-icon-box">
+          <span class="material-symbols-outlined about-card-icon">edit</span>
+        </div>
+        <p class="about-card-title">UI/UX Design</p>
+        <p class="about-card-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+          consequat aliquet id quis turpis.</p>
+        <button class="btn-card">Get started</button>
+      </div>
+      <div class="about-card card-shadow">
+        <div class="about-card-icon-box green-bg">
+          <span class="material-symbols-outlined about-card-icon">code</span>
+        </div>
+        <p class="about-card-title">Front End</p>
+        <p class="about-card-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+          consequat aliquet id quis turpis.</p>
+        <button class="btn-card btn-touch">Get started</button>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon-box red-bg">
+          <span class="material-symbols-outlined about-card-icon">storage</span>
+        </div>
+        <p class="about-card-title">Back End</p>
+        <p class="about-card-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+          consequat aliquet id quis turpis.</p>
+        <button class="btn-card">Get started</button>
+      </div>
+    </div>
+  </section>
+  <section class="section-features container">
+    <h2 class="heading-secondary">Good design means good business</h2>
+    <div class="features-box">
+      <div class="feature-card">
+        <div class="feature-card-img-box">
+          <img src="smarthome.jpg" alt="smarthome" class="feature-card-img">
+        </div>
+        <div class="feature-card-text-box">
+          <p class="feature-card-sub">Full stack application</p>
+          <p class="feature-card-title">Smart home dashboard</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-img-box">
+          <img src="onboard.png" alt="onboard" class="feature-card-img">
+        </div>
+        <div class="feature-card-text-box">
+          <p class="feature-card-sub">UX/UI design</p>
+          <p class="feature-card-title">Onboard application</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-img-box">
+          <img src="booking.png" alt="booking" class="feature-card-img">
+        </div>
+        <div class="feature-card-text-box">
+          <p class="feature-card-sub">Mobile application</p>
+          <p class="feature-card-title">Booking system</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-card-img-box">
+          <img src="juice-product.png" alt="juice-product" class="feature-card-img">
+        </div>
+        <div class="feature-card-text-box">
+          <p class="feature-card-sub">Front End applicati on</p>
+          <p class="feature-card-title">Juice product homepage</p>
+        </div>
+      </div>
+    </div>
+    <button class="btn-more">see more <span>&rarr;</span></button>
+  </section>
+  <section class="section-tearms container">
+    <div class="tearms-text-box">
+      <p class="terms-title">Meet the team</p>
+      <h2 class="heading-secondary">We are chilled and a laidback team</h2>
+      <p class="heading-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="tearms-img-box">
+      <img src="person1.png" alt="person1" class="term-img">
+      <img src="person2.png" alt="person2" class="term-img">
+      <img src="person3.png" alt="person3" class="term-img">
+    </div>
+  </section>
+  <section class="section-desc container">
+    <p class="desc-text">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and
+      talented team.” </p>
+    <div class="desc-autor-box">
+      <div class="desc-img-box">
+        <img src="person4.png" alt="person4" class="desc-autor-img">
+      </div>
+      <div class="desc-autor">
+        <div class="desc-autor-name">Carlos Tran</div>
+        <div class="desc-autor-job-title">The Decorate Gatsby</div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-box container">
+      <div class="footer-links">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item"><a href="#">Home</a></li>
+          <li class="footer-nav-item"><a href="#">Services</a></li>
+          <li class="footer-nav-item"><a href="#">Our Works</a></li>
+          <li class="footer-nav-item"><a href="#">Clients</a></li>
+          <li class="footer-nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-icons">
+        <h3 class="heading-tertiary">Edie</h3>
+        <ul class="icons-list">
+          <li class="icon-item"><img src="instagram.svg" class="footer-icon" /></li>
+          <li class="icon-item"><img src="linkedin.svg" class="footer-icon" /></li>
+          <li class="icon-item"><img src="twitter.svg" class="footer-icon" /></li>
+        </ul>
+      </div>
+      <div class="contact-box">
+        <p class="contact-text">Want us to contact you?</p>
+        <div class="contact-submit-box">
+          <input type="text" class="input-submit" placeholder="Email">
+          <button class="btn">Join</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-link">
+      <p class="footer-link-text">created by <a
+          href="https://github.com/benbenbenwu/404-page-challenge">@benbenbenwu</a></p>
+    </div>
+  </footer>
 </body>
 
 </html>
